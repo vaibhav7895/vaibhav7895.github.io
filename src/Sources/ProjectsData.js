@@ -1,0 +1,78 @@
+import { project1Dark, project1Light, project2Dark, project2Light, project3Dark, project3Light, project4Dark, project4Light, project5Dark, project5Light } from "./Images";
+import {
+  Appleclone,
+  Appleclonegithub,
+  bewakoof,
+  bewakoofGithub,
+  lifestyle,
+  lifestyleGithub,
+  orbitz,
+  orbitzGithub,
+  studytracker,
+  studytrackergithub,
+} from "./Links";
+
+export const ProjectsData = [
+  // {
+  //   live: APrimeLive,
+  //   github: APrimeGithub,
+  //   imgDark: project4Dark,
+  //   imgLight: project4Light,
+  //   heading1: "A-Prime",
+  //   heading2: "(Custom Youtube App)",
+  //   summary: "It is A Simple Video Platform to watch Youtube videos, Made using Google Youtube Data API V3. We can Search through various videos, filter, and paginate",
+  //   TStack: [true, true, true, true, true, true, true, false],
+  // },
+  {
+    live: lifestyle,
+    github: lifestyleGithub,
+    img1: project1Dark,
+    img2: project1Light,
+    heading1: `OutFit.com`,
+    heading2: "(Lifestyle.com Clone)",
+    summary: "A Ecommerce Website that sells a variety a fashion clothing. Build on ReactJs and redux for Frontend and Custom Server (Json-server) on Backend.",
+    TStack: [true, true, true, true, true, false, true, false],
+  },
+  {
+    live: bewakoof,
+    github: bewakoofGithub,
+    img1: project4Dark,
+    img2: project4Light,
+    heading1: `BewaKoof.com`,
+    heading2: "",
+    summary: "A Ecommerce Website that sells a variety a fashion clothing. Build on ReactJs for Frontend and context API.",
+    TStack: [true, true, true, true, true, false, false, false],
+  },
+  {
+    live: studytracker,
+    github: studytrackergithub,
+    img1: project5Dark,
+    img2: project5Light,
+    heading1: `StudyTracker`,
+    heading2: "",
+    summary: "Studytacker is based on pomodoro technique. It has a simple todo list app which helps to increase the efficiency of your work.",
+    TStack: [true, true, true, false, true, false, true, false,true],
+  },
+  {
+    live: orbitz,
+    github: orbitzGithub,
+    img1: project3Dark,
+    img2: project3Light,
+    heading1: "Travel.com",
+    heading2: "",
+    summary:
+      "It is a hotel booking website. where user can book trips and hoilday packages.",
+    TStack: [true, true, true, true, true, false, true, false],
+  },
+  {
+    live: Appleclone,
+    github: Appleclonegithub,
+    img1: project2Dark,
+    img2: project2Light,
+    heading1: "Apple.com",
+    heading2: "",
+    summary:
+      "A Ecommerce Website that sells a variety of apple products. Build on HTML and CSS for Frontend and Custom Server (Json-server) with JavaScript on Backend.",
+    TStack: [false, false, true, true, true, false, false, false],
+  },
+];
